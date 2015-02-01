@@ -1,0 +1,15 @@
+{
+  "name": "calcapi",
+  "version": "1.0.0",
+  "description": "rest api to evaluate bodmas expression",
+  "main": "index.js",
+  "keywords": [
+    "restapi"
+  ],
+  "author": "Hari krishna Bodicharla",
+  "license": "bodi",
+    "dependencies": {
+        "express": "~4.0.0",
+        "body-parser": "~1.0.1"
+    }
+}
