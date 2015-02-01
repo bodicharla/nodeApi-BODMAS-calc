@@ -39,7 +39,7 @@ router.route('/calc/:expr')
 	
 	.get(function(req, res){
 
-	       res.json(calc.finresult(req.params.expr));
+	       res.json({value:calc.finresult(req.params.expr)});
 
 });
 
